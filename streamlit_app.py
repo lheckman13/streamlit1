@@ -8,7 +8,7 @@ if uploaded_file is not None:
   col1=df1[1:5]
   col2=df1[6:10]
   col3=df1[11:15]
-  final=pd.dataframe()
+  final=pd.DataFrame()
   final['B']=col1
   final['I']=col2
   final['N']=col3
