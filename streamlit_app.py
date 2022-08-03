@@ -12,4 +12,5 @@ if uploaded_file is not None:
   final['B']=col1
   final['I']=col2
   final['N']=col3
+  with st.container():
   st.dataframe(final, width=500, height=500)
